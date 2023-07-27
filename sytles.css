@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5 ;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/*global*/
+.container {
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button-1 {
+    background-color: rgb(255, 212, 92);
+    color: white;
+    border: none;
+    padding: 0 20px 0 20px;
+    height: 31px;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: transparent;
+}
+
+/*header*/ 
+header {
+    background: black;
+    color: white;
+    padding-top: 30px;   
+    min-height: 60px;
+    border-bottom: 3px solid red;
+}
+
+header #brand{
+    float: left;
+}
+header #brand h1{
+    margin: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header .highlight, header .current a{
+    color: rgb(255, 212, 92);
+    font-weight: bold;
+}
+
+header a:hover{
+    color: rgb(231, 115, 115);
+    font-weight: bold;
+}
+
+/*hero*/
+#hero {
+    min-height: 400px;
+    background-image: url(Images/108cb8dc410a9cbe15362e42dbad5eb8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0;
+    background-position-y: -200px;
+    color: white;
+    text-align: center;    
+}
+
+#hero h1{
+    font-size: 55px;
+    margin-top: 125px;
+    margin-bottom: 0;
+}
+
+#hero h4{
+    color: rgb(189, 183, 183);
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+#hero p{
+    font-size: 18px;
+    color: rgb(231, 217, 217);
+}
+
+/*form-section*/
+#form-section {
+    background-color: rgba(143, 106, 57, 0.973);
+    color: white;
+    padding: 15px;
+    border-top: 3px solid red;
+}
+
+#form-section h1 {
+    float: left;
+    
+}
+
+#form-section form  {
+    float: right;
+    margin-top: 22px;
+}
+
+#form-section input[type="email"] {
+    padding: 4px;
+    margin: ;
+    height: 25px;
+    width: 250px;
+    border: 0;
+}
+
+/*flex*/
+#left .flex #contain {
+    float: left;
+}
+
+#left .flex #cont {
+    float: right;
+}
+
+/* flex-section */
+#flex-section {
+    min-height: 8h100px;
+}
+
+#flex-section #flex_2 {
+     background-color: silver;
+    float: left;
+    width: 50%;
+  
+}
+
+#flex-section h1 {
+    color: red;
+    text-align: center;
+    text-shadow: white;
+}
+
+#flex-section #flex_3 h2 {
+    text-align: center;
+}
+
+#flex-section #flex_3 {
+    float: right;
+    width: 50%;
+    background-color: rgb(213, 201, 181);
+}
+
+#flex-section #flex_3 img {
+    width: 20%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border: none;
+}
+
+#flex-section #flex_3 p{
+    text-align: justify;
+}
